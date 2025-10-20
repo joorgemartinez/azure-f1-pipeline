@@ -10,8 +10,8 @@ import pandas as pd
 
 DEFAULT_URLS = [
     "https://api.openf1.org/v1/sessions?year=2023&csv=true",
-    "https://api.openf1.org/v1/session_result?session_key=9094&csv=true",
-    "https://api.openf1.org/v1/drivers?session_key=9094&csv=true"
+    "https://api.openf1.org/v1/session_result?session_key=9089&csv=true",
+    "https://api.openf1.org/v1/drivers?session_key=9089&csv=true"
 ]
 
 def get_clean_name(url):
